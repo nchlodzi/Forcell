@@ -1,0 +1,44 @@
+.navbar {
+  border: none;
+  border-radius: 0 !important;
+  height: 72px;
+  margin-bottom: 0;
+}
+.navbar-default {
+    background-color: #fff;
+    .navbar-nav {
+    	background-color: inherit;
+      padding: 10px 0 0 0;
+    	li a {
+    		color: #000;
+        text-transform: uppercase;
+        font-weight: 500;
+        &:hover {
+          color: #e3e3e3;
+        }
+        & img {
+          width: 24px;
+          height: 24px;
+        }
+    	}
+	}
+	.navbar-toggle {
+		border: none;
+    background-color: transparent;
+    &:hover {
+      background-color: transparent;
+    }
+		.icon-bar {
+      background-color: #000;
+      border-radius: 2px;
+    }
+	}
+}
+
+// .logo {
+//   margin: -58px 0 0 -100px;
+//   @include position(absolute, 50% 0 0 50%);
+//   img {
+
+//   }
+// }

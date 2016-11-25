@@ -1,0 +1,31 @@
+.nav {
+  ul {
+    list-style: none;
+    li {
+      a {
+
+      }
+    }
+  }
+}
+.breadcrumb {
+	background-color: inherit;
+  a {
+    color: #858b90;
+    &:hover {
+      text-decoration: none;
+    }
+    &.active {
+      color: #000;
+      font-weight: 500;
+    }
+  }
+
+}
+.breadcrumb > li + li:before {
+    color: #ccc;
+    font-family: 'Glyphicons Halflings';
+    content: "\e258" !important;
+    padding: 0 5px;
+    bottom: 1px;
+}
